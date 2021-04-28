@@ -1,13 +1,80 @@
 
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Cuerpo de la consola*/
 .consola{
     height: 30em;
     width: 60em;
-    background-color: #d7c6a8;
+    background-color: #d7c6a8    ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    border: groove 1em red;
-    border-radius: 1em;
+    border: solid 0.6em #ae0e22;
+    border-radius: 0.3em;
+    box-shadow: 1em 1em 1em 1em grey;
+    
 }
 
+/*Parte izquierda de la consola. Compuesto por el logo y la cruceta.*/
+.left{
+    height: 30em;
+    width: 14em;
+    background-color: saddlebrown;
+}
+
+
+
+
+/*Parte central de la consola. Se compone de la pantalla principalmente.*/
+.center{
+    height: 30em;
+    width: 32em;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.center1{
+    height: 2em;
+    width: 30em;
+}
+
+.center2{
+    height: 26em;
+    width: 30em;
+/*    background-color: blueviolet; */
+    box-shadow: 0.8em 0.8em 0.4em 0.4em #6d4420,
+                -0.8em -0.8em 0.4em 0.4em #fdf8ec;
+}
+
+
+.center3{
+    height: 2em;
+    width: 30em;
+}
+
+
+
+
+
+
+
+/*Parte de la derecha de la consola. Se compone de los botones principalmente.*/
+.right{
+    height: 30em;   
+    width: 14em;
+    background-color: sandybrown;
+
+
+
+}
