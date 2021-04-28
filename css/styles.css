@@ -1,0 +1,11 @@
+
+.consola{
+    height: 30em;
+    width: 60em;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
