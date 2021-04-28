@@ -2,10 +2,12 @@
 .consola{
     height: 30em;
     width: 60em;
-    background-color: grey;
+    background-color: #d7c6a8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    border: groove 1em red;
+    border-radius: 1em;
 }
 
