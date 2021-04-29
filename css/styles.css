@@ -52,9 +52,11 @@
 .center2{
     height: 26em;
     width: 30em;
-/*    background-color: blueviolet; */
+/*    background-color: blueviolet; 
     box-shadow: 0.8em 0.8em 0.4em 0.4em #6d4420,
-                -0.8em -0.8em 0.4em 0.4em #fdf8ec;
+                -0.8em -0.8em 0.4em 0.4em #fdf8ec; */
+    border: 0.8em outset #fdf8ec;
+    border-radius: 0.7em;
 }
 
 
