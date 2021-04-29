@@ -252,4 +252,61 @@
 .right{
     height: 30em;   
     width: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.rightHijo1{
+    height: 2em;
+    width: 14em;
+    background-color: salmon;
+}
+
+/*Botones Game - Time - Pause/set*/
+.rightHijo2{
+    height: 8em;
+    width: 14em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.rightHijo2Izq{
+    height: 8em;
+    width: 7em;
+
+}
+
+.rightHijo2Der{
+    height: 8em;
+    width: 7em;
+    background-color: red;
+}
+
+
+/*Espacio en blanco*/
+.rightHijo3{
+    height: 8em;
+    width: 14em;
+    background-color: white;
+}
+
+/*Botones A y B*/
+.rightHijo4{
+    height: 8em;
+    width: 14em;
+}
+
+
+
+
+.rightHijo5{
+    height: 4em;
+    width: 14em;
+    background-color: yellow;
+}
+
+
