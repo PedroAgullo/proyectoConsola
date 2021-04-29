@@ -74,15 +74,107 @@
     height: 9em;
     width: 14em;    
 }
+
+/*Div que contiene el D-Pad.*/
 .leftHijo4{
     height: 9em;
     width: 14em;
-    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.leftHijo4Vacio{
+    height: 9em;
+    width: 2.5em;
+}
+
+/*Divisiones del D-Pad*/
+.dPad{
+    height: 9em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dPadUp{
+    height: 3em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.dPadUpButton{
+    height: 3em;
+    width: 3em;
+    background-color: #27292b;
+}
+
+
+.dPadEmpty{
+    height: 3em;
+    width: 3em;
+}
+
+.dPadCenter{
+    height: 3em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dPadLeftButton{
+    height: 3em;
+    width: 3em;
+    background-color: #27292b;
+}
+
+.dPadCenterButton{
+    height: 3em;
+    width: 3em;
+    background-color: #27292b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CenterButtonEffect{
+    height: 2em;
+    width: 2em;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+
+.dPadRightButton{
+    height: 3em;
+    width: 3em;
+    background-color: #27292b;
+}
+
+.dPadDown{
+    height: 3em;
+    width: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.dPadDownButton{
+    height: 3em;
+    width: 3em;
+    background-color: #27292b;
+}
+/*Parte vacia debajo del D-Pad*/
 .leftHijo5{
     height: 3em;
     width: 14em;
-    background-color: red;
 }
 
 
@@ -103,6 +195,8 @@
     width: 30em;
 }
 
+
+/*Zona de la pantalla y logo de Nintendo y Mario*/
 .center2{
     height: 26em;
     width: 30em;
@@ -111,12 +205,41 @@
                 -0.8em -0.8em 0.4em 0.4em #fdf8ec; */
     border: 0.8em outset #fdf8ec;
     border-radius: 0.5em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    display: flex; 
+}
+
+
+.logoMario{
+    height: 3em;
+    width: 30em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.screen{
+    height: 24em;
+    width: 26em;
+    background-color: black;
+
+}
+
+.logoNintendo{
+    height: 3em;
+    width: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
 .center3{
     height: 2em;
-    width: 30em;
+    width: 30em;    
 }
 
 
@@ -129,8 +252,4 @@
 .right{
     height: 30em;   
     width: 14em;
-    background-color: sandybrown;
-
-
-
 }
