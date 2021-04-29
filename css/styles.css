@@ -26,10 +26,64 @@
 /*Parte izquierda de la consola. Compuesto por el logo y la cruceta.*/
 .left{
     height: 30em;
-    width: 14em;
-    background-color: saddlebrown;
+    width: 14em;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+
+.leftHijo1{
+    height: 3.5em;
+    width: 14em;
+}
+
+/* Zona del logo de Game & Watch*/
+.leftHijo2{
+    height: 6.5em;
+    width: 14em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/*Relleno lateral del logo Game & Watch*/
+.leftGYWrelleno{
+    height: 6.5em;
+    width: 3.5em;
+}
+
+/*Propiedades del logo Game & Watch*/
+.leftGYWLogo{
+    height: 6.5em;
+    width: 7em;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.4em;
+    border: black solid 0.1em;
+
+
+}
+
+.leftHijo3{
+    height: 9em;
+    width: 14em;    
+}
+.leftHijo4{
+    height: 9em;
+    width: 14em;
+    background-color: pink;
+}
+.leftHijo5{
+    height: 3em;
+    width: 14em;
+    background-color: red;
+}
 
 
 
@@ -56,7 +110,7 @@
     box-shadow: 0.8em 0.8em 0.4em 0.4em #6d4420,
                 -0.8em -0.8em 0.4em 0.4em #fdf8ec; */
     border: 0.8em outset #fdf8ec;
-    border-radius: 0.7em;
+    border-radius: 0.5em;
 }
 
 
