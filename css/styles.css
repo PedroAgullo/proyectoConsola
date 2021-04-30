@@ -1,7 +1,7 @@
 
 
 .contenedor{
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -239,9 +239,6 @@ P{
 .center2{
     height: 26em;
     width: 30em;
-/*    background-color: blueviolet; 
-    box-shadow: 0.8em 0.8em 0.4em 0.4em #6d4420,
-                -0.8em -0.8em 0.4em 0.4em #fdf8ec; */
     border: 0.8em outset #fdf8ec;
     border-radius: 0.5em;
     justify-content: center;
@@ -263,6 +260,10 @@ P{
     height: 24em;
     width: 26em;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 
 }
 
@@ -325,7 +326,6 @@ P{
     background-color: red;
 }
 
-
 /*Espacio en blanco*/
 .rightHijo3{
     height: 6em;
@@ -342,48 +342,44 @@ P{
     align-items: center;
     flex-direction: row;
 }
-
-.buttonA{
+.boxbuttonB{
     height: 8em;
     width: 7em;
-    background-color: pink;
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
 }
-
-.buttonAHijo{
-    height: 4em;
-    width: 4em;
-    background-color: #cd3042;
-    border-radius: 50%;
-    border-color: red;
- }
-.bRedondo{
-    height: 4em;
-    width: 4em;
-    background-color: #cd3042;
-    border-radius: 50%;
-    border: outset #cd3042;
-}
-
 .buttonB{
-    height: 8em;
-    width: 7em;
-    background-color: purple;
-    display: flex;
+    height: 2.9em;
+    width: 2.9em;
+    background-color: #bf2539;
+    border-radius: 50%;
+    border: 0.3em outset #8a0718;   
     justify-items: center;
     align-items: center;
-
-
-}
-
-.buttonBHijo{
+    flex-direction: column; 
+ }
+.Redondo{
     height: 4em;
     width: 4em;
     background-color: #cd3042;
     border-radius: 50%;
+    border:outset #8a0718;
+}
+.boxButtonA{
+    height: 8em;
+    width: 7em;
+    display: flex;
+    justify-items: center;
+    align-items: center;    
+}
+.buttonA{
+    height: 2.8em;
+    width: 2.8em;
+    background-color: #bf2539;
+    border-radius: 50%;
+    border: outset #8a0718;
 }
 .rightHijo5{
     height: 4em;
