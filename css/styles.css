@@ -1,26 +1,22 @@
 
-
-.contenedor{
-    
+.contenedor{    
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 /* Cuerpo de la consola*/
 .consola{
     height: 30em;
     width: 60em;
-    background-color: #d7c6a8    ;
+    background-color: #d7c6a8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     border: outset 0.6em #ae0e22;
     border-radius: 0.5em;
-    box-shadow: 1em 1em 1em 1em grey;
-    
+    box-shadow: 1em 1em 1em 1em grey;    
 }
 
 /*Parte izquierda de la consola. Compuesto por el logo y la cruceta.*/
@@ -32,7 +28,6 @@
     align-items: center;
     flex-direction: column;
 }
-
 
 .leftHijo1{
     height: 3.5em;
@@ -54,10 +49,6 @@
     height: 6.5em;
     width: 3.5em;
 }
-
-
-
-
 /*Propiedades del logo Game & Watch*/
 .leftGYWLogo{
     height: 6em;
@@ -71,18 +62,12 @@
     border: black solid 0.1em;
 }
 
-P{
+p{
     font-size: 1.8em;
     text-align: center;
     font-weight: bold;
     font-style: oblique;
-
-
 }
-
-
-
-
 
 .leftHijo3{
     height: 9em;
@@ -121,8 +106,8 @@ P{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
 }
+
 .dPadUpButton{
     height: 3em;
     width: 3em;
@@ -132,7 +117,6 @@ P{
     border-left: outset 0.3em #ae0e22;
     border-radius: 0.5em 0.5em 0 0.5em;
 }
-
 
 .dPadEmpty{
     height: 3em;
@@ -146,7 +130,6 @@ P{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
 }
 
 .dPadLeftButton{
@@ -156,8 +139,7 @@ P{
     border-top: outset 0.3em #ae0e22;
     border-left: outset 0.3em #ae0e22;
     border-bottom: outset 0.3em #ae0e22;
-    border-radius: 0.5em 0 0.5em 0.5em;
-    
+    border-radius: 0.5em 0 0.5em 0.5em;    
 }
 
 .dPadCenterButton{
@@ -166,8 +148,7 @@ P{
     background-color: #27292b;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .CenterButtonEffect{
@@ -186,9 +167,6 @@ P{
     border-right: outset 0.3em #ae0e22;
     border-bottom: outset 0.3em #ae0e22;
     border-radius: 0.3em 0.3em 0.3em 0;
-    
-    
-
 }
 
 .dPadDown{
@@ -197,8 +175,7 @@ P{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
 
 .dPadDownButton{
@@ -210,6 +187,7 @@ P{
     border-bottom: outset 0.3em #ae0e22;
     border-radius: 0 0.3em 0.3em 0.3em;
 }
+
 /*Parte vacia debajo del D-Pad*/
 .leftHijo5{
     height: 3em;
@@ -226,7 +204,6 @@ P{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .center1{
@@ -263,8 +240,6 @@ P{
     display: flex;
     justify-content: center;
     align-content: center;
-
-
 }
 
 .logoNintendo{
@@ -273,20 +248,12 @@ P{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 
 .center3{
     height: 2em;
     width: 30em;    
 }
-
-
-
-
-
-
 
 /*Parte de la derecha de la consola. Se compone de los botones principalmente.*/
 .right{
@@ -317,16 +284,16 @@ P{
 .rightHijo2Izq{
     height: 10em;
     width: 7em;
-
 }
 
+/*Espacio en vacío*/
 .rightHijo2Der{
     height: 10em;
     width: 7em;
     background-color: red;
 }
 
-/*Espacio en blanco*/
+/*Espacio en vacío*/
 .rightHijo3{
     height: 6em;
     width: 14em;
@@ -342,45 +309,31 @@ P{
     align-items: center;
     flex-direction: row;
 }
+
 .boxbuttonB{
     height: 8em;
     width: 7em;
     display: flex;
-    justify-items: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;    
 }
-.buttonB{
-    height: 2.9em;
-    width: 2.9em;
-    background-color: #bf2539;
-    border-radius: 50%;
-    border: 0.3em outset #8a0718;   
-    justify-items: center;
-    align-items: center;
-    flex-direction: column; 
- }
+
 .Redondo{
-    height: 4em;
-    width: 4em;
-    background-color: #cd3042;
+    height: 5em;
+    width: 5em;
     border-radius: 50%;
-    border:outset #8a0718;
+    border: 0.4em outset #8a0718;  
+    background-color: #bf2539; 
 }
+
 .boxButtonA{
     height: 8em;
     width: 7em;
     display: flex;
-    justify-items: center;
-    align-items: center;    
+    align-items: center;
+    justify-content: center; 
 }
-.buttonA{
-    height: 2.8em;
-    width: 2.8em;
-    background-color: #bf2539;
-    border-radius: 50%;
-    border: outset #8a0718;
-}
+
 .rightHijo5{
     height: 4em;
     width: 14em;
