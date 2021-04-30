@@ -18,7 +18,7 @@
     align-items: center;
     flex-direction: row;
     border: outset 0.6em #ae0e22;
-    border-radius: 0.3em;
+    border-radius: 0.5em;
     box-shadow: 1em 1em 1em 1em grey;
     
 }
@@ -55,9 +55,12 @@
     width: 3.5em;
 }
 
+
+
+
 /*Propiedades del logo Game & Watch*/
 .leftGYWLogo{
-    height: 6.5em;
+    height: 6em;
     width: 7em;
     background-color: red;
     display: flex;
@@ -66,9 +69,20 @@
     background-color: white;
     border-radius: 0.4em;
     border: black solid 0.1em;
+}
+
+P{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: bold;
+    font-style: oblique;
 
 
 }
+
+
+
+
 
 .leftHijo3{
     height: 9em;
