@@ -204,6 +204,7 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .center1{
@@ -240,6 +241,9 @@ p{
     display: flex;
     justify-content: center;
     align-content: center;
+    border: inset 0.3em #ae0e22;
+    border-radius: 0.3em;
+
 }
 
 .logoNintendo{
@@ -268,7 +272,8 @@ p{
 .rightHijo1{
     height: 2em;
     width: 14em;
-    background-color: salmon;
+    background-color: burlywood;
+    
 }
 
 /*Botones Game - Time - Pause/set*/
@@ -281,10 +286,54 @@ p{
     flex-direction: row;
 }
 
+
+
 .rightHijo2Izq{
     height: 10em;
     width: 7em;
 }
+.buttonGame{
+    height: 2em;    
+    width: 7em;
+    background-color: darkblue;
+}
+
+.textGame{
+    height: 1em;    
+    width: 7em;
+    background-color: violet;
+}
+
+
+.buttonTime{
+    height: 2em;    
+    width: 7em;
+    background-color: darkblue;
+}
+
+.textTime{
+    height: 1em;    
+    width: 7em;
+    background-color: violet;
+}
+
+.buttonPause{
+    height: 2em;    
+    width: 7em;
+    background-color: darkblue;
+}
+
+.textPause{
+    height: 1em;    
+    width: 7em;
+    background-color: violet;
+}
+
+
+
+
+
+
 
 /*Espacio en vacío*/
 .rightHijo2Der{
