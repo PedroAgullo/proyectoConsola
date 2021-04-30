@@ -116,8 +116,20 @@ p{
     border-right: outset 0.3em #ae0e22;
     border-left: outset 0.3em #ae0e22;
     border-radius: 0.5em 0.5em 0 0.5em;
-}
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
+.flechaU {
+    width: 0;
+    height: 0;
+    border-left: 0.9em solid transparent;
+    border-right: 0.9em solid transparent;
+    border-bottom: 1em solid red;
+}
 .dPadEmpty{
     height: 3em;
     width: 3em;
@@ -139,7 +151,32 @@ p{
     border-top: outset 0.3em #ae0e22;
     border-left: outset 0.3em #ae0e22;
     border-bottom: outset 0.3em #ae0e22;
-    border-radius: 0.5em 0 0.5em 0.5em;    
+    border-radius: 0.5em 0 0.5em 0.5em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;   
+}
+
+.cuadrado{
+    height: 1em;
+    width: 1em;
+    background-color: red;
+}
+
+.cuadradoDown{
+    height: 1em;
+    width: 1em;
+    background-color: red;
+}
+
+.flechaL {
+    width: 0;
+    height: 0;
+    border-top: 0.9em solid transparent;
+    border-right: 1em solid #000;
+    border-bottom: 0.9em solid transparent;
+
 }
 
 .dPadCenterButton{
@@ -154,7 +191,8 @@ p{
 .CenterButtonEffect{
     height: 2em;
     width: 2em;
-    background-color: black;
+/*    background-color: black;*/
+    background: linear-gradient(1890deg, black, grey);
     border-radius: 50%;
     box-shadow: 0px 0px 10px 0px #333 inset;    
 }
@@ -167,8 +205,20 @@ p{
     border-right: outset 0.3em #ae0e22;
     border-bottom: outset 0.3em #ae0e22;
     border-radius: 0.3em 0.3em 0.3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
+
+.flechaR {
+    width: 0;
+    height: 0;
+    border-top: 0.9em solid transparent;
+    border-left: 1em solid #000;
+    border-bottom: 0.9em solid transparent;
+}
 .dPadDown{
     height: 3em;
     width: 9em;
@@ -186,6 +236,19 @@ p{
     border-right: outset 0.3em #ae0e22;
     border-bottom: outset 0.3em #ae0e22;
     border-radius: 0 0.3em 0.3em 0.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.3em;
+}
+
+.flechaD {
+    width: 0;
+    height: 0;
+    border-left: 0.9em solid transparent;
+    border-right: 0.9em solid transparent;
+    border-top: 1em solid #000;
 }
 
 /*Parte vacia debajo del D-Pad*/
@@ -271,9 +334,7 @@ p{
 
 .rightHijo1{
     height: 2em;
-    width: 14em;
-    background-color: burlywood;
-    
+    width: 14em;    
 }
 
 /*Botones Game - Time - Pause/set*/
@@ -288,45 +349,75 @@ p{
 
 
 
-.rightHijo2Izq{
+.buttonBox{
     height: 10em;
-    width: 7em;
+    width: 7em;    
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
+
+.alargado{
+    height: 2em;    
+    width: 3em;
+    background-color: #a9a7a5;
+    border-radius: 1em;
+    border: 0.3em solid rgb(172, 21, 21); 
+}
+.textoBotones
+{
+    font-size: 1em;    
+}
+
 .buttonGame{
     height: 2em;    
     width: 7em;
-    background-color: darkblue;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    cursor: pointer;
 }
 
 .textGame{
     height: 1em;    
     width: 7em;
-    background-color: violet;
+    display: flex;
+    align-items: center;    
+    flex-direction: column; 
 }
-
 
 .buttonTime{
     height: 2em;    
     width: 7em;
-    background-color: darkblue;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+
 }
 
 .textTime{
     height: 1em;    
     width: 7em;
-    background-color: violet;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
 }
 
 .buttonPause{
     height: 2em;    
     width: 7em;
-    background-color: darkblue;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
 }
 
 .textPause{
     height: 1em;    
     width: 7em;
-    background-color: violet;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
 }
 
 
@@ -339,14 +430,12 @@ p{
 .rightHijo2Der{
     height: 10em;
     width: 7em;
-    background-color: red;
 }
 
 /*Espacio en vacío*/
 .rightHijo3{
     height: 6em;
     width: 14em;
-    background-color: white;
 }
 
 /*Botones A y B*/
@@ -367,9 +456,9 @@ p{
     justify-content: center;    
 }
 
-.Redondo{
-    height: 5em;
-    width: 5em;
+.redondo{
+    height: 6em;
+    width: 6em;
     border-radius: 50%;
     border: 0.4em outset #8a0718;  
     background-color: #bf2539; 

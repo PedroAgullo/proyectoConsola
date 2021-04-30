@@ -32,22 +32,36 @@
                 <div class="dPad">
                     <div class="dPadUp">
                         <div class="dPadEmpty"></div>
-                        <div class="dPadUpButton"></div>
+                        <div class="dPadUpButton">
+                            <div class="flechaU"></div>
+                            <div class="cuadrado"></div>
+
+                        </div>
                         <div class="dPadEmpty"></div>
 
                     </div>
 
                     <div class="dPadCenter">
-                        <div class="dPadLeftButton"></div>
+                        <div class="dPadLeftButton">
+                            <div class="flechaL"></div>
+                            <div class="cuadrado"></div>
+                        </div>
                         <div class="dPadCenterButton">
                             <div class="CenterButtonEffect"></div>
                         </div>
-                        <div class="dPadRightButton"></div>
+                        <div class="dPadRightButton">
+                            <div class="cuadrado"></div>
+                            <div class="flechaR"></div>
+
+                        </div>
                     </div>
 
                     <div class="dPadDown">
                         <div class="dPadEmpty"></div>
-                        <div class="dPadDownButton"></div>
+                        <div class="dPadDownButton">
+                            <div class="cuadradoDown"></div>                            
+                            <div class="flechaD"></div>
+                        </div>
                         <div class="dPadEmpty"></div>
                     </div>
                 </div>
@@ -70,22 +84,13 @@
 
                 <div class="logoMario"><h2>SUPER MARIO BROS.</h2></div>
 
-                <div class="screen"></div>
+                <div class="screen firstLight"></div>
 
                 <div class="logoNintendo"><h2>Nintendo</h2></div>
-
-
             </div>
 
-
-
-
             <div class="center3"></div>
-
-
         </div>
-
-
 
         <!--Parte derecha de la consola. Contiene los diferentes botones.-->
         <div class="right">
@@ -94,21 +99,20 @@
            <!--Botones Game - Time - Pause/Seg-->
             <div class="rightHijo2">
                 
-                <div class="rightHijo2Izq">
-                    <div class="buttonGame"></div>
-                    <div class="textGame"></div>
-                    <div class="buttonTime"></div>
-                    <div class="textTime"></div>
-                    <div class="buttonPause"></div>
-                    <div class="textPause"></div>
+                <div class="buttonBox">
+                    <div class="buttonGame"><button class="alargado" id="lightButton"></button></div>
+                    <div class="textGame textoBotones">GAME</div>
+                    <div class="buttonTime"><button class="alargado"></button></div>
+                    <div class="textTime">TIME</div>
+                    <div class="buttonPause"><button class="alargado"></button></div>
+                    <div class="textPause">PAUSE/SET</div>
                 </div>
-
-
-
 
 
                 <!--Parte en blanco de la derecha de los botones-->
                 <div class="rightHijo2Der"></div>
+
+                
             </div>
             
             <div class="rightHijo3"></div>
@@ -116,12 +120,12 @@
             <!--Botones A y B-->
             <div class="rightHijo4">
                 <div class="boxbuttonB">
-                    <button class="Redondo">B</button>
+                    <button class="redondo">B</button>
                 </div>
 
                 <div class="boxButtonA">
                     <!--<div class="buttonB"></div>-->
-                    <button class="Redondo">A</button>
+                    <button class="redondo">A</button>
                 </div>
 
             </div>
@@ -131,19 +135,10 @@
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 </div>
+
+<script src="js/index.js"></script>
 </body>
 </html>
