@@ -180,7 +180,8 @@ p{
 .cuadrado{
     height: 1em;
     width: 1em;
-    background: linear-gradient(-30deg, black, rgb(56, 56, 56));    
+    /*background: linear-gradient(-30deg, black, rgb(56, 56, 56));    */
+    background-color: black;
 }
 
 

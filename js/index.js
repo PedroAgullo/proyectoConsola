@@ -12,6 +12,7 @@ onButton.onclick = function(event) {
         document.getElementById("screenImage").src="img/pantalla_off.png";
         encendido = false;
         gameOn = 0;
+        juego = 0;
         
     }
 }
