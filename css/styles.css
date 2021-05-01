@@ -335,6 +335,10 @@ p{
     align-content: center;
     border: inset 0.6em #ae0e22;
     border-radius: 0.6em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    display: flex; 
 
 }
 
