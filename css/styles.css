@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 /* Cuerpo de la consola*/
@@ -368,6 +369,7 @@ h6{
     height: 2em;    
     width: 3em;
     background-color: #a9a7a5;
+    background: linear-gradient(-30deg, #a9a7a5, rgb(88, 88, 88));
     border-radius: 1em;
     border: 0.3em solid rgb(172, 21, 21); 
     cursor: pointer;
@@ -411,7 +413,7 @@ h6{
     flex-direction: column;
 }
 
-.buttonPause{
+.buttonOn{
     height: 2em;    
     width: 7em;
     display: flex;
@@ -419,7 +421,7 @@ h6{
     flex-direction: column;
 }
 
-.textPause{
+.textOn{
     height: 1em;    
     width: 7em;
     display: flex;

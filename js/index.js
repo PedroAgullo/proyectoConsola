@@ -14,7 +14,6 @@ button.onclick = function(event) {
 
 
 
-
 let botonB = document.getElementById("botonB")
 let audioEtiquetaA = document.getElementById("audioBotonB")
 
