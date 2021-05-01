@@ -126,6 +126,14 @@ p{
     flex-direction: column;
 
 }
+
+.dPadUpButton:hover{
+    border-top: inset 0.4em #ae0e22;
+    border-right: inset 0.4em #ae0e22;
+    border-left: inset 0.4em #ae0e22;
+    border-radius: 0.5em 0.5em 0 0.5em;
+}
+
 .flechaU {
     width: 0;
     height: 0;
@@ -162,6 +170,13 @@ p{
     flex-direction: row;   
 }
 
+.dPadLeftButton:hover{
+    border-top: inset 0.4em #ae0e22;
+    border-left: inset 0.4em #ae0e22;
+    border-bottom: inset 0.4em #ae0e22;
+    border-radius: 0.5em 0 0.5em 0.5em; 
+}
+
 .cuadrado{
     height: 1em;
     width: 1em;
@@ -178,6 +193,7 @@ p{
     background: linear-gradient(-30deg, black, rgb(56, 56, 56)) !important;
 
 }
+
 
 .dPadCenterButton{
     height: 3em;
@@ -207,6 +223,15 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+}
+
+.dPadRightButton:hover{
+    border-top: inset 0.4em #ae0e22;
+    border-right: inset 0.4em #ae0e22;
+    border-bottom: inset 0.4em #ae0e22;
+    border-radius: 0.3em 0.3em 0.3em 0;
+    border-radius: 0.3em 0.3em 0.3em 0;
+
 }
 
 
@@ -239,6 +264,12 @@ p{
     align-items: center;
     flex-direction: column;
     margin-top: 0.3em;
+}
+
+.dPadDownButton:hover{
+    border-left: inset 0.4em #ae0e22;
+    border-right: inset 0.4em #ae0e22;
+    border-bottom: inset 0.4em #ae0e22;
 }
 
 .flechaD {
@@ -465,6 +496,8 @@ h6{
     justify-content: center;    
 }
 
+
+
 .redondo{
     height: 7em;
     width: 7em;
@@ -472,6 +505,11 @@ h6{
     border: 0.6em outset #8a0718;  
     background: linear-gradient(-30deg, #f33b54, #e76175);
     cursor: pointer;
+}
+
+.redondo:hover{
+    border: 0.6em inset #8a0718;  
+    background: linear-gradient(-30deg, #f52e48, #e75067);
 }
 
 .boxButtonA{

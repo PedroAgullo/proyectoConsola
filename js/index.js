@@ -1,11 +1,11 @@
 let encendido = false;
-const button = document.getElementById("lightButton");
+const button = document.getElementById("onButton");
 button.onclick = function(event) {
     if (encendido === false) {
-        document.getElementsByClassName("firstLight")[0].style.background = "#8b9288";
+        document.getElementsByClassName("screenColor")[0].style.background = "#8b9288";
         encendido = true;
     } else {
-        document.getElementsByClassName("firstLight")[0].style.background = "black";
+        document.getElementsByClassName("screenColor")[0].style.background = "black";
         encendido = false;
     }
 }
