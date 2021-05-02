@@ -349,13 +349,37 @@ p{
 
 }
 
+
+
 .logoNintendo{
     height: 3em;
     width: 30em;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
 }
+
+.nintendoLeft{
+    height: 3em;
+    width: 10em;
+}
+
+.nintendoCenter{
+    height: 1.7em;
+    width: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    border: 0.2em black solid;
+
+}
+.nintendoRight{
+    height: 3em;
+    width: 10em;
+}
+
 
 h6{
     font-size: 0.5em;
