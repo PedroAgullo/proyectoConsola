@@ -450,7 +450,7 @@ h6{
 }
 
 .textGame{
-    height: 1em;    
+    height: 1.5em;    
     width: 7em;
     display: flex;
     align-items: center;    
@@ -467,7 +467,7 @@ h6{
 }
 
 .textTime{
-    height: 1em;    
+    height: 1.5em;    
     width: 7em;
     display: flex;
     align-items: center;    

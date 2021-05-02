@@ -1,9 +1,10 @@
 
-
 let juego = 0;
 let gameOn = 0;
 let encendido = false;
 const onButton = document.getElementById("onButton");
+
+/* Función para encender y apagar la pantalla */
 onButton.onclick = function(event) {
     if (encendido === false) {
         document.getElementById("screenImage").src="img/nintendo-logo.jpg";
@@ -16,8 +17,7 @@ onButton.onclick = function(event) {
     }
 }
 
-
-
+/*Función para cambiar de juego una vez encendida la pantalla */
 const gameButton = document.getElementById("gameButton");
 gameButton.onclick = function(event) {
     if (juego === 0 && encendido === true) {
@@ -35,13 +35,7 @@ gameButton.onclick = function(event) {
     }
 
 }
-
-
-
-
-
-
-
+/*Sonido del botón B*/
 let botonB = document.getElementById("botonB")
 let audioEtiquetaA = document.getElementById("audioBotonB")
 botonB.addEventListener("click", () => {
@@ -51,7 +45,7 @@ botonB.addEventListener("click", () => {
     }
 })
 
-
+/*Sonido del botón A*/
 let botonA = document.getElementById("botonA")
 let audioEtiquetaB = document.getElementById("audioBotonA")
 botonA.addEventListener("click", () => {
