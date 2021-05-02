@@ -12,8 +12,7 @@ onButton.onclick = function(event) {
         document.getElementById("screenImage").src="img/pantalla_off.png";
         encendido = false;
         gameOn = 0;
-        juego = 0;
-        
+        juego = 0;        
     }
 }
 
@@ -29,7 +28,7 @@ gameButton.onclick = function(event) {
         document.getElementById("screenImage").src="img/juego1.png";
         juego = 2;
         gameOn = 1;
-    } else {
+    } else if (juego === 2 && encendido === true){
         document.getElementById("screenImage").src="img/juego2.png";
         juego = 0;
         gameOn = 1;
@@ -50,7 +49,6 @@ botonB.addEventListener("click", () => {
   audioEtiquetaA.setAttribute("src", "sound/saltoMario.mp3")
   audioEtiquetaA.play()
     }
-
 })
 
 
@@ -61,5 +59,4 @@ botonA.addEventListener("click", () => {
   audioEtiquetaB.setAttribute("src", "sound/MonedaMario.mp3")
   audioEtiquetaB.play()
     }
-
 })
